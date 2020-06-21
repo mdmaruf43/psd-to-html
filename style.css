@@ -1,0 +1,117 @@
+/* Common CSS */
+body {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 14px; 
+    line-height: 1.3rem;
+    font-weight: 400;
+}
+p {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 14px;
+    line-height: 1.3rem;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway' sans-serif;
+    line-height: 1.3rem;
+    font-weight: 600;
+}
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+}
+/* Top Header Area */
+#top_header_area {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#top_header_area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#top_header_area ul li:first-child{
+    border-left: 1px solid #e8e8e8;
+}
+
+#top_header_area ul.social{
+    text-align: right;
+}
+
+#top_header_area ul.social li a i{
+    color: #afb0b4;
+}
+
+#top_header_area ul.social li a:hover i{
+    color: #df4a43;
+}
+
+#top_header_area ul li{
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #e8e8e8;
+    color: #afb0b4;
+    font-size: 13px;
+}
+
+#top_header_area ul li i{
+    color: #df4a43;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* Header Area */
+#header_area {
+    background-color: #fafafa;
+}
+
+#header_area .col-md-3{
+    padding: 20px 0;
+}
+
+#header_area ul#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+#header_area ul#nav li{
+    display: inline-block;
+}
+
+#header_area ul#nav li a{
+    color: #565966;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 40px 5px;
+    position: relative;
+}
+
+#header_area ul#nav li a::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #df4a43;
+    width: 0%;
+    height: 5px;
+    content: "";
+    transition: 0.5s;
+}
+
+#header_area ul#nav li a:hover::after{
+    width: 100%;
+}
+
+#header_area ul#nav li a:hover{
+    color: #df4a43;
+}

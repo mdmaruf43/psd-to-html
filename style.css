@@ -115,3 +115,27 @@ a {
 #header_area ul#nav li a:hover{
     color: #df4a43;
 }
+
+/* Slider Area */
+#slider_area {
+    position: relative;
+}
+
+#slider_area .bxslider {}
+
+#slider_area .bx-wrapper{
+    border: 0px solid;
+}
+
+#slider_area img {
+    width: 100%;
+    height: auto;
+}
+
+#slider_area .slider_text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
